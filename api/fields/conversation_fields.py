@@ -185,7 +185,6 @@ conversation_detail_fields = {
     "from_account_id": fields.String,
     "created_at": TimestampField,
     "updated_at": TimestampField,
-    "updated_at": TimestampField,
     "annotated": fields.Boolean,
     "introduction": fields.String,
     "model_config": fields.Nested(model_config_fields),
@@ -201,7 +200,6 @@ simple_conversation_fields = {
     "status": fields.String,
     "introduction": fields.String,
     "created_at": TimestampField,
-    "updated_at": TimestampField,
     "updated_at": TimestampField,
 }
 
