@@ -11,7 +11,7 @@ const translation = {
     advancedWarning: {
       title: 'エキスパートモードに切り替えました。PROMPTを変更すると、基本モードに戻ることはできません。',
       description: 'エキスパートモードでは、PROMPT全体を編集できます。',
-      learnMore: '詳細を見る',
+      learnMore: '詳細はこちら',
       ok: 'OK',
     },
     operation: {
@@ -150,7 +150,7 @@ const translation = {
       title: '会話履歴',
       description: '会話の役割に接頭辞名を設定します',
       tip: '会話履歴は有効になっていません。上記のプロンプトに <histories> を追加してください。',
-      learnMore: '詳細を見る',
+      learnMore: '詳細はこちら',
       editModal: {
         title: '会話役割名の編集',
         userPrefix: 'ユーザー接頭辞',
@@ -224,6 +224,8 @@ const translation = {
     description: 'コードジェネレーターは、設定されたモデルを使用して指示に基づいて高品質なコードを生成します。明確で詳細な指示を提供してください。',
     instruction: '指示',
     instructionPlaceholder: '生成したいコードの詳細な説明を入力してください。',
+    noDataLine1: '左側に使用例を記入してください,',
+    noDataLine2: 'コードのプレビューがこちらに表示されます。',
     generate: '生成',
     generatedCodeTitle: '生成されたコード',
     loading: 'コードを生成中...',
@@ -357,7 +359,7 @@ const translation = {
     'content': 'コンテンツ',
     'required': '必須',
     'file': {
-      supportFileTypes: 'サッポトされたファイルタイプ',
+      supportFileTypes: 'サポートされたファイルタイプ',
       image: {
         name: '画像',
       },
